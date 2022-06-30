@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from refun.views import *
 
-
+print("this is urls")
 urlpatterns = [
        path('hi/', home),
        path('employee', emp_list_or_create, name="emp_list_or_create"),
