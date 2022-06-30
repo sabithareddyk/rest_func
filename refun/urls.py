@@ -3,6 +3,7 @@ from django.urls import path, include
 from refun.views import *
 
 print("this is urls")
+print("fine")
 urlpatterns = [
        path('hi/', home),
        path('employee', emp_list_or_create, name="emp_list_or_create"),
